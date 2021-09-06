@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Kaisei;
+  src: url(fonts/KaiseiOpti-Regular.ttf);
+}
+
+@font-face {
+  font-family: Pacifico;
+  src: url(fonts/Pacifico-Regular.ttf);
+}
+
+body {
+  background-color: darkgray;
+  background-size: cover;
+  text-indent: 15px;
+}
+
+.center {
+  position: absolute;
+  top: 20px;
+  right: 100px;
+  border: 2px solid white;
+  background-color: white;
+  width: 225px;
+  height: auto;
+  padding: 7px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+h1 {
+  font-family: Pacifico;
+  font-size: 30px;
+  text-decoration: underline;
+  color: white;
+  margin: 15px;
+}
+
+p {
+  font-family: Kaisei;
+  font-size: 12px;
+  color: white;
+  line-height: 1.6;
+}
+
+h2 {
+  font-family: Kaisei;
+  font-size: 20px;
+  color: white;
+  margin: 15px;
+}
+
+ul {
+  font-family: Kaisei;
+  font-size: 12px;
+  color: white;
+}
+
+ol {
+  font-family: Kaisei;
+  font-size: 12px;
+  color: white;
+}
+
+a {
+  color: blue;
+}
+
+div i {
+  color: white;
+  padding-left: 50px;
+}
+
+td {
+  background-color: hotpink;
+}
+
+tr {
+  background-color: hotpink;
+}
