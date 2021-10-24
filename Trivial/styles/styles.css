@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+.hidden {
+  display: none;
+}
+
+main {
+  font-family: 'Nova Square', cursive;
+}
+
+body {
+  background-image: url(../images/background.jpg);
+  padding: 100px;
+  background-size: cover;
+}
+
+button {
+  float: right;
+  border-radius: 5px;
+}
+
+article {
+  text-align: center;
+  font-size: 22px;
+  height: 110px;
+  margin: 16px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: rgb(175, 166, 166);
+  opacity: 0.8;
+}
+
+label {
+  font-family: 'Nova Square', cursive;
+}
+
+p {
+  font-family: 'Nova Square', cursive;
+}
+
+h1 {
+  font-family: 'Nova Square', cursive;
+  text-align: center;
+}
